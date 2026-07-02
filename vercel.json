@@ -1,2 +1,8 @@
-cd C:\Users\sahaf\Downloads\HTML\Implementation
-notepad vercel.json
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/implementation.html"
+    }
+  ]
+}
